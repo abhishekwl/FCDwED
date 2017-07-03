@@ -15,5 +15,13 @@
   "keywords": [
     "Compression",
     "Encryption"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekwl/FCDwED.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abhishekwl/FCDwED/issues"
+  },
+  "homepage": "https://github.com/abhishekwl/FCDwED#readme"
 }
