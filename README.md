@@ -15,20 +15,19 @@ Dependencies are through2-map to make use of transform streams to print to stdou
 Installation: npm install through2-map --save
 
 Usage:
-1) File Compression with Encyption:
-  node index.js <ABSOLUTE_FILE_PATH> C <ENCRYPTION_KEY>
+1) File Compression with Encyption: node index.js <ABSOLUTE_FILE_PATH> C <ENCRYPTION_KEY>
+
+Eg:
+node index.js ./test.txt C testpassword123
   
-  Eg:
-  node index.js ./test.txt C testpassword123
   
-  
-2) File Decompression with Decryption:
-  node index.js <ABSOLUTE_FILE_PATH> D <DECRYPTION_KEY>
-  
-  Eg:
-  node index.js ./test.txtCompressed.gz D testpassword123
+2) File Decompression with Decryption:  node index.js <ABSOLUTE_FILE_PATH> D <DECRYPTION_KEY>
+
+Eg:
+node index.js ./test.txtCompressed.gz D testpassword123
   
   
   
-If you come across any bugs, report them to nateriver210@gmail.com
-Cheers.
+If you come across any bugs, report them to nateriver210@gmail.com.
+
+Cheers :)
