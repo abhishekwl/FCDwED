@@ -2,8 +2,11 @@
 Asynchronous File Compression/Decompression with Encryption/Decyption using AES-256(CBC) based Encryption.
 
 Gets the input stream from the file supplied as args. (This is piped to the cipher)
+
 Encypts the file using AES-256(CBC) 256-bit based Encryption. (This is piped to Zlib's Gzip/Gunzip)
+
 Makes use of node's zlib module to perform Gzip compression/decompressions.
+
 After chaining up the streams successfully, the content is then piped to the transform stream which then prints out every chunk of data it receives (Encrypted/Decrypted).
 
 Output of the Compression process is going to be a .gz file with Encypted Content. Thereby, making it invulnerable to bruteforcing attacks since every individual file is compressed rather than the zip itself.
